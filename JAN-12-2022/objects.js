@@ -22,3 +22,10 @@ console.log(shirin["number"]);
 console.log(shirin["name"]);
 console.log(shirin["age"]);
 console.log(shirin["sayHi"]());
+
+const Person = function (firstName, age) {
+  this.firstName = firstName;
+  this.age = age;
+};
+
+const mahya = new Person("mahya", 23);

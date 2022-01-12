@@ -73,4 +73,4 @@ const person = {
 // console.log(person.shoutName());
 // console.log(person.sayName());
 // console.log(person.hisName2());
-console.log(person.hisName3());
+// console.log(person.hisName3());

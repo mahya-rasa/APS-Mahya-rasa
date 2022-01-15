@@ -27,13 +27,6 @@ id % 2;
 const firstName = "mahya";
 const lastName = "rasa";
 console.log(firstName + " " + lastName);
-
-console.log(5 + null);
-console.log("10" + null);
-console.log(5 + 3);
-console.log(5 + "3");
-console.log("5" + 2);
-console.log("5" - 2);
 */
 
 //assignment operators

@@ -20,7 +20,13 @@ if (money) {
 // console.log(Boolean([]));
 // console.log(Boolean({}));
 
-console.log(Boolean("0"));
-console.log(Boolean(NaN));
-console.log(Boolean(undefined));
-console.log(Boolean(null));
+// console.log(Boolean("0"));
+// console.log(Boolean(NaN));
+// console.log(Boolean(undefined));
+console.log(Boolean(-5 >= -6));
+
+let age = 18;
+
+age >= 18
+  ? console.log("I like to drink wine🍷🍷")
+  : console.log("i'm a child!!!");

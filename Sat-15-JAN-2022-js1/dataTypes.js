@@ -57,5 +57,5 @@ var job = "programmer";
 job = "teacher";
 console.log(job);
 
-lastName = "Schmedtmann";
+lastName = "rasa";
 console.log(lastName);

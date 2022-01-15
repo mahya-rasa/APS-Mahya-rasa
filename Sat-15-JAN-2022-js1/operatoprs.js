@@ -61,7 +61,7 @@ console.log(!(pofakPrice < chipsPrice) && juicePrice < sodaPrice);
 console.log(pofakPrice < chipsPrice || juicePrice > sodaPrice);
 
 //NOTE
-console.log(200 + 0 / 0);
+console.log(100 + 0 / 0);
 
 let score = 5;
 score + 4;

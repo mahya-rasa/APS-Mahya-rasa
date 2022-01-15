@@ -66,3 +66,26 @@ let juicePrice = 3000;
 //or
 console.log(!(pofakPrice < chipsPrice) && juicePrice < sodaPrice);
 console.log(pofakPrice < chipsPrice || juicePrice > sodaPrice);
+
+//NOTE
+console.log(200 + 0 / 0);
+
+let score = 5;
+score + 4;
+
+console.log(score + 4);
+console.log(score);
+
+let waterBoilingPoint = 100;
+waterBoilingPoint /= 2;
+waterBoilingPoint += 10;
+
+console.log(waterBoilingPoint);
+
+let myAge = 29;
+
+console.log(myAge++);
+console.log(myAge);
+
+let yourAge = 20;
+console.log(++yourAge);

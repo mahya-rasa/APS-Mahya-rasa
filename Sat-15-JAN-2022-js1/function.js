@@ -64,3 +64,5 @@ const sum = (x, y) => {
 };
 
 console.log(sum(10, 12));
+
+//function calling other function

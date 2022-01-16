@@ -4,6 +4,7 @@
 //manual
 
 Number();
+Boolean();
 String();
 parseInt();
 String();
@@ -33,9 +34,13 @@ console.log(Number(x) + 10);
 // n = n - 1;
 // console.log(n);
 
-// console.log(5 + null);
-// console.log("10" + null);
-// console.log(5 + 3);
-// console.log(5 + "3");
-// console.log("5" + 2);
-// console.log("5" - 2);
+console.log(5 + null);
+console.log("10" + null);
+console.log(5 + 3);
+console.log(5 + "3");
+console.log("5" + 2);
+console.log("5" - "2");
+
+let n = "1" + 1;
+n -= 1;
+console.log(n);

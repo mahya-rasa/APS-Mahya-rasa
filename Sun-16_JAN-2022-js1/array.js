@@ -1,6 +1,6 @@
 //array
 
-let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 //slice
 
@@ -31,7 +31,7 @@ let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 // let numbers2 = [10, 11];
 // console.log([...numbers, ...numbers2]);
 
-//map , filter , some  every fine reduce foreach
+//map , filter , some  every find  reduce foreach
 
 // for (const [i, number] of numbers.entries()) {
 //   console.log(i);
@@ -42,7 +42,9 @@ let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 //   console.log(number, index);
 // });
 
-// let x = numbers.filter(function (number) {
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+// let x = numbers.filter((number) => {
 //   return number > 3;
 // });
 
@@ -50,20 +52,22 @@ let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 // console.log(numbers);
 
 //map
-// let m = numbers.map( (element)=>  element * 2);
+// let m = numbers.map((element) => element * 2);
 
 // console.log(m);
 
 //every
-// let n = numbers.every(function (ele) {
-//   return ele < 10;
-// });
+let n = numbers.every(function (ele) {
+  // true
+  return ele < 10;
+});
 
 //some
 
-// numbers.some(function (ele) {
-//   return el > 4;
-// });
+numbers.some(function (ele) {
+  //true
+  return el > 4;
+});
 // console.log(
 //   numbers.some(function (ele) {
 //     return ele > 4;
@@ -72,11 +76,11 @@ let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 // //find
 
-// console.log(
-//   numbers.find(function (el) {
-//     return el > 4;
-//   })
-// );
+console.log(
+  numbers.find(function (el) {
+    return el > 4; //5
+  })
+);
 // console.log(n);
 
 //indexOf
@@ -85,4 +89,8 @@ let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 numbers.push(10);
 
-numbers.reduce();
+numbers.reduce(function (pi, ci) {
+  //add
+  //sort
+  pi + ci;
+});

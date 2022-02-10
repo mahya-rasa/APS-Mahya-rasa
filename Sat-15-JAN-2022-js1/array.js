@@ -14,14 +14,16 @@ const friends = ["kosar", "jamal", "hossein"];
 // console.log(numbers[2]);
 // console.log(numbers[3]);
 
-//array operators
+//array methods
 
 //slice
 const chars = ["a", "b", "c", "d", "f", "e"];
+// console.log(chars.pop());
 // console.log(chars.slice(2));
 // console.log(chars.slice(2, 4));
 // console.log(chars.slice(-2));
-// console.log(chars.slice(-1));
+console.log(chars.slice());
+const c2 = [...chars];
 // console.log(chars.slice(2, -1));
 
 //NOTE:copy an array
@@ -48,9 +50,14 @@ const chars = ["a", "b", "c", "d", "f", "e"];
 
 // console.log(chars.concat(chars2));
 
-// console.log([...chars, ...chars2]);
+// console.log(["mahya", ...chars, ...chars2, "deniz"]);
 
 const grades = [19, 18, 20, 12, 16, 17, 20];
+
+for (let i = 0; i < grades.length; i++) {
+  console.log(grages[i]);
+}
+addEventListener("click", function (event) {});
 
 for (const [i, grade] of grades.entries()) {
   if (grade >= 18) {
@@ -60,8 +67,8 @@ for (const [i, grade] of grades.entries()) {
   }
 }
 
-grades.forEach(function (grade, i) {
-  if (grade >= 18) {
+grades.forEach(function (element, i) {
+  if (element >= 18) {
     console.log(i + ":very good😍😍");
   } else {
     console.log(i + ":shame on you😒😒");

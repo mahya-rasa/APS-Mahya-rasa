@@ -15,7 +15,7 @@ function logger() {
 // logger();
 // logger();
 
-//parameter argument   return
+//parameter argument   return //void
 
 // function sum(a, b) {
 //   console.log(a + b);
@@ -45,24 +45,28 @@ console.log(popDuplicate(arr));
 //function expression
 //arrow function  ES6  FE -shorter faster to write
 
+console.log(calcAge(1999));
+
 function calcAge(birhYear) {
   return 2022 - birhYear;
 }
 
-// const age = function (birhYear) {
-//   return 2022 - birhYear;
-// };
+console.log(age(2010));
+
+const age = function (birhYear) {
+  return 2022 - birhYear;
+};
 
 // console.log(age(2010));
 
-const age = (birhYear) => 2022 - birhYear;
+// const age = (birhYear) => 2022 - birhYear;
 
-console.log(age(2010));
+// console.log(age(2010));
 
-const sum = (x, y) => {
-  x + y;
-};
+// const sum = (x, y) => {
+//   x + y;
+// };
 
-console.log(sum(10, 12));
+// console.log(sum(10, 12));
 
 //function calling other function

@@ -4,28 +4,39 @@ const student = {
 };
 
 for (const key in student) {
-  console.log(key); //name
+  // console.log(key); // name , age
+  // console.log(typeof key); // name , age
 
-  console.log(student[key]); //shekofe
+  console.log(student[key]); // shekofe 12
 }
 
-for (const key in student) {
-  if (Object.hasOwnProperty.call(student, key)) {
-    const element = object[key];
-  }
-}
+Object.keys(student); //name , age
 
-console.log(Object.keys(student));
+Object.values(student); //shekofe , 12
 
-console.log(Object.values(student));
+// for (const key in student) {
+//   console.log(key); //name
 
-Object.keys(student);
-Object.values(student);
+//   console.log(student[key]); //shekofe
+// }
 
-student.hasOwnProperty("name");
+// for (const key in student) {
+//   if (Object.hasOwnProperty.call(student, key)) {
+//     const element = object[key];
+//   }
+// }
 
-for (const key in student) {
-  if (Object.hasOwnProperty.call(student, key)) {
-    const element = object[key];
-  }
-}
+// console.log(Object.keys(student));
+
+// console.log(Object.values(student));
+
+// Object.keys(student);
+// Object.values(student);
+
+// student.hasOwnProperty("name");
+
+// for (const key in student) {
+//   if (Object.hasOwnProperty.call(student, key)) {
+//     const element = object[key];
+//   }
+// }

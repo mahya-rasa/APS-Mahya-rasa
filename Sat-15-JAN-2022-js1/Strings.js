@@ -36,10 +36,10 @@ console.log(str2.localeCompare(str1));
 
 // console.log(str1.slice(2, 4));
 
-// console.log(str1.split(","));
+console.log(str1.split(","));
 
 let str3 = "hi, i'm mahya 2 rasa and i'm 2 years old";
 
-console.log(str3.replace(/\d+/g, "23"));
+console.log(str3.replace("22", "23"));
 
 console.log(str3.search("mahya"));

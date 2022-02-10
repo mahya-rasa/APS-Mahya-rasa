@@ -1,13 +1,29 @@
 //destructure
 
 //array destructure
+
+// const one = arr[0];
+// const two = arr[1];
+
+// const [one, two] = arr;
+
+// console.log(one, two); // 1 , 2
+
 const arr = [1, 2, 3, 4, 5];
 const arr2 = [6, 7, 8, 9];
+
+
+const [one , two , ...others ]= arr; //others 3, 4,5 
 const arr3 = [...arr, ...arr2];
 console.log(arr3);
 
 //...
-Math.max(...arr);
+
+const str = "hello"
+console.log(...str);  //  h e l l o
+Math.max(1,2,3,4);//4
+Math.max(arr) ; //NaN
+Math.max(...arr); //5
 
 // const one = arr[0];
 // const two = arr[1];
@@ -62,6 +78,13 @@ const obj1 = {
   age: 22,
   isAlive: true,
 };
+
+const { name, age } = obj1;
+
+console.log(name, age);
+
+//spread  ...
+//rest  ...
 
 const obj2 = {
   mahya: "gol",

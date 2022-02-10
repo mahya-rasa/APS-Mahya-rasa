@@ -1,19 +1,19 @@
-// Type Conversion and Coercion
+// Type Conversion
 
 //automated
 //manual
 
-Number();
-Boolean();
-String();
-parseInt();
-String();
-let age = 18;
-age.toString();
+// Number();
+// Boolean();
+// String();
+// parseInt();
+// String();
+// let age = 18;
+// age.toString();
 
-let x = prompt("enter a number😘");
+// let x = prompt("enter a number😘");
 
-console.log(Number(x) + 10);
+// console.log(Number(x) + 10);
 
 // type conversion
 // const inputYear = "1991";
@@ -34,13 +34,13 @@ console.log(Number(x) + 10);
 // n = n - 1;
 // console.log(n);
 
-console.log(5 + null);
-console.log("10" + null);
+console.log(5 + null); //5
+console.log("10" + null); //10null
 console.log(5 + 3);
-console.log(5 + "3");
-console.log("5" + 2);
+console.log(5 + "3"); //53
+console.log("5" + 2); //52
 console.log("5" - "2");
 
-let n = "1" + 1;
-n -= 1;
-console.log(n);
+let n = "1" + 1; //11
+n -= 1; //10
+console.log(typeof n); //number

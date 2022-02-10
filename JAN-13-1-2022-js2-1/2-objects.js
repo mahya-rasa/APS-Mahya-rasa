@@ -1,5 +1,7 @@
 //shopping store
 
+//oop
+
 //customer
 //product
 //driver
@@ -16,6 +18,7 @@ const customer = {
   group,
   lastName: "mohmadi",
   [ageKey]: 18,
+
   [ageKey]: 22,
   gender: "male",
   shoppingCard: ["pofak", "chips"],
@@ -34,5 +37,8 @@ console.log(customer.firstName);
 
 console.log(customer["lastName"]);
 console.log(customer["addToShoppingCard"]());
+
+customer.addToShoppingCard();
+customer["addToShoppingCard"]();
 
 console.log(customer[ageKey]);

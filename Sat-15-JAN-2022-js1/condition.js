@@ -8,21 +8,21 @@ let money = 2;
 // String(23);
 // Number("mahya");
 
-if (money) {
-  console.log("you are rich!!!");
-} else {
-  console.log("you are poor");
-}
+// if (money) {
+//   console.log("you are rich!!!");
+// } else {
+//   console.log("you are poor");
+// }
 
-// console.log(Boolean(""));
-// console.log(Boolean(0));
-// console.log(Boolean(2));
-// console.log(Boolean([]));
-// console.log(Boolean({}));
+console.log(Boolean("")); //false
+console.log(Boolean(0)); //flase
+console.log(Boolean(2)); //true
+console.log(Boolean([])); //true
+console.log(Boolean({})); //true
 
-// console.log(Boolean("0"));
-// console.log(Boolean(NaN));
-// console.log(Boolean(undefined));
+console.log(Boolean("0"));
+console.log(Boolean(NaN));
+console.log(Boolean(undefined));
 console.log(Boolean(-5 >= -6));
 
 let age = 18;

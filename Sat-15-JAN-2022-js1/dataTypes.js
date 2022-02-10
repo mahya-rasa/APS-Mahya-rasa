@@ -1,6 +1,24 @@
 //variable
 //data type
 
+//primitive
+
+let x = 10;
+let y = x;
+
+y--;
+
+console.log(x, y);
+
+const car = {
+  color: "red",
+};
+
+const car2 = car;
+
+car2.color = "green";
+
+//object
 let firstName;
 
 console.log(firstName);
